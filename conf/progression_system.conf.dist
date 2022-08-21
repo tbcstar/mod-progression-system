@@ -24,7 +24,7 @@ ProgressionSystem.LoadDatabase = 1
 
 #
 #    ProgressionSystem.ReapplyUpdates
-#        Description: Always reapply every SQL file on start up. Warning: impacts start up times.
+#        Description: 始终在启动时重新应用每个 SQL 文件。 警告：影响启动时间。
 #        Default:     1 - Enabled
 #                     0 - Disabled
 #
@@ -33,11 +33,11 @@ ProgressionSystem.ReapplyUpdates = 0
 
 #
 #    ProgressionSystem.Brackets
-#        Description: Defined what brackets should be loaded. It is a bitmask. Available mask values are present in ProgressionSystem.h
+#        Description: 定义了应该加载的括号。 它是一个位掩码。 ProgressionSystem.h 中存在可用的掩码值
 #        Default:     0 - None
 #                     > 0 - Specific brackets are loaded
-#					  E.g. 256 is Bracket 60 - Tier 2;
-#						   14 is: Bracket 10-19, 20-29 and 30-39
+#					 例如 256 是括号 60 - 第 2 层；
+#						  14 是：括号 10-19、20-29 和 30-39
 #
 
 ProgressionSystem.Brackets = 0
@@ -46,9 +46,9 @@ ProgressionSystem.Brackets = 0
 #
 #
 #    ProgressionSystem.60.MoltenCore.ManualRuneHandling
-#        Description: Defines whether Molten Core runes are handled manually (dousing through Aqual Quintessence) or automatic when bosses are defeated (WotLK default)
-#        Default:   1 - Enabled (requires dousing)
-#                   0 - Disabled (automatic, handled when bosses are defeated)
+#        Description: 定义熔火之心符文是手动处理（通过水之精华浇灌）还是在击败 Boss 时自动处理（WotLK 默认）
+#        Default:   1 - Enabled (需要浸泡)
+#                   0 - Disabled (自动，当老板被击败时处理)
 #
 #
 
@@ -56,9 +56,9 @@ ProgressionSystem.60.MoltenCore.ManualRuneHandling = 1
 
 #
 #    ProgressionSystem.60.MoltenCore.AqualEssenceCooldownReduction
-#        Description: Reduces the cooldown of Eternal Quintessences by the amount specified.
-#        Default:   0 - Disabled (1 hour cooldown)
-#                   60 - (No cooldown)
+#        Description: 将永恒精华的冷却时间减少指定的数量。
+#        Default:   0 - Disabled (1 小时冷却时间)
+#                   60 - (无冷却时间)
 #
 #
 
@@ -66,8 +66,8 @@ ProgressionSystem.60.MoltenCore.AqualEssenceCooldownReduction = 0
 
 #
 #    ProgressionSystem.60.WorldBosses.KazzakPhasing
-#        Description: Enables phasing out players and boss when Lord Kazzak is engaged.
-#        Default:   1 - Enabled (Players and boss will be phased)
+#        Description: 当卡扎克勋爵参与时，可以逐步淘汰玩家和BOSS。
+#        Default:   1 - Enabled (玩家和BOSS将分阶段进行)
 #                   0 - Disabled
 #
 #
