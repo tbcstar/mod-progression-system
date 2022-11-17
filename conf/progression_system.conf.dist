@@ -6,7 +6,7 @@
 
 #
 #    ProgressionSystem.LoadScripts
-#        Description: Enable loading scripts from bracket modules
+#        Description: 启用从bracket模块加载脚本
 #        Default:     1 - Enabled
 #                     0 - Disabled
 #
@@ -15,7 +15,7 @@ ProgressionSystem.LoadScripts = 1
 
 #
 #    ProgressionSystem.LoadDatabase
-#        Description: Enable loading SQL files from bracket modules
+#        Description: 启用从bracket模块加载 SQL 文件
 #        Default:     1 - Enabled
 #                     0 - Disabled
 #
@@ -32,15 +32,40 @@ ProgressionSystem.LoadDatabase = 1
 ProgressionSystem.ReapplyUpdates = 0
 
 #
-#    ProgressionSystem.Brackets
-#        Description: 定义了应该加载的括号。 它是一个位掩码。 ProgressionSystem.h 中存在可用的掩码值
-#        Default:     0 - None
-#                     > 0 - Specific brackets are loaded
-#					 例如 256 是括号 60 - 第 2 层；
-#						  14 是：括号 10-19、20-29 和 30-39
+#    ProgressionSystem.Bracket_X
+#        Description: 定义bracket模块是否应加载，0 不加载，1 加载。
+#        Default:     0 - Not loaded.
 #
 
-ProgressionSystem.Brackets = 0
+ProgressionSystem.Bracket_0 = 0
+ProgressionSystem.Bracket_1_19 = 0
+ProgressionSystem.Bracket_20_29 = 0
+ProgressionSystem.Bracket_30_39 = 0
+ProgressionSystem.Bracket_40_49 = 0
+ProgressionSystem.Bracket_50_59_1 = 0
+ProgressionSystem.Bracket_50_59_2 = 0
+ProgressionSystem.Bracket_60_1_1 = 0
+ProgressionSystem.Bracket_60_1_2 = 0
+ProgressionSystem.Bracket_60_2_1 = 0
+ProgressionSystem.Bracket_60_2_2 = 0
+ProgressionSystem.Bracket_60_3_1 = 0
+ProgressionSystem.Bracket_60_3_2 = 0
+ProgressionSystem.Bracket_60_3_3 = 0
+ProgressionSystem.Bracket_61_64 = 0
+ProgressionSystem.Bracket_65_69 = 0
+ProgressionSystem.Bracket_70_4 = 0
+ProgressionSystem.Bracket_70_5 = 0
+ProgressionSystem.Bracket_70_6_1 = 0
+ProgressionSystem.Bracket_70_6_2 = 0
+ProgressionSystem.Bracket_70_6_3 = 0
+ProgressionSystem.Bracket_71_74 = 0
+ProgressionSystem.Bracket_75_79 = 0
+ProgressionSystem.Bracket_80_7 = 0
+ProgressionSystem.Bracket_80_8 = 0
+ProgressionSystem.Bracket_80_9 = 0
+ProgressionSystem.Bracket_80_10_1 = 0
+ProgressionSystem.Bracket_80_10_2 = 0
+ProgressionSystem.Bracket_Custom = 0
 
 #
 #
