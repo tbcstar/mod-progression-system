@@ -37,14 +37,14 @@ ProgressionSystem.ReapplyUpdates = 0
 #        Default:     0 - 未加载。
 #
 
-ProgressionSystem.Bracket_0       = 0
-ProgressionSystem.Bracket_1_19    = 0 # 影牙要塞、死亡矿井、哀嚎洞穴、黑暗深渊、怒焰裂谷
-ProgressionSystem.Bracket_20_29   = 0 # 暴风城栅栏、剃刀高地、诺莫瑞根
-ProgressionSystem.Bracket_30_39   = 0 # 奥达曼、剃刀高地、血色修道院
-ProgressionSystem.Bracket_40_49   = 0 # 沉没的神殿、祖尔法拉克、玛拉顿
-ProgressionSystem.Bracket_50_59_1 = 0 # 黑石深渊、厄运之槌、通灵学院、斯坦索姆
-ProgressionSystem.Bracket_50_59_2 = 0 # Blackrock Spire attunement requirement
-ProgressionSystem.Bracket_60_1_1  = 0 # 黑石塔
+ProgressionSystem.Bracket_0       = 1
+ProgressionSystem.Bracket_1_19    = 1 # 影牙要塞、死亡矿井、哀嚎洞穴、黑暗深渊、怒焰裂谷
+ProgressionSystem.Bracket_20_29   = 1 # 暴风城栅栏、剃刀高地、诺莫瑞根
+ProgressionSystem.Bracket_30_39   = 1 # 奥达曼、剃刀高地、血色修道院
+ProgressionSystem.Bracket_40_49   = 1 # 沉没的神殿、祖尔法拉克、玛拉顿
+ProgressionSystem.Bracket_50_59_1 = 1 # 黑石深渊、厄运之槌、通灵学院、斯坦索姆
+ProgressionSystem.Bracket_50_59_2 = 1 # 黑石塔上下层
+ProgressionSystem.Bracket_60_1_1  = 1 # 黑石塔
 ProgressionSystem.Bracket_60_1_2  = 0 # 熔火之心
 ProgressionSystem.Bracket_60_2_1  = 0 # 奥妮克希亚的巢穴
 ProgressionSystem.Bracket_60_2_2  = 0 # 黑翼之巢
